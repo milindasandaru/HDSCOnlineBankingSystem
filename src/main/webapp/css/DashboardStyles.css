@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #ece7e2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #dce7dd; /* Light background */
+    color: #333;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-profile h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.dashboard {
+    padding: 20px;
+}
+
+.card-section, .actions-section, .account-cards-section {
+    margin-bottom: 30px;
+}
+
+/* Account balance card styling */
+.card-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.balance-card {
+    background: linear-gradient(120deg, #10b981, #34d399); /* Green gradient for the card */
+    border-radius: 15px;
+    padding: 25px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.balance-card .acc-number p {
+    font-size: 20px;
+    color: #e0f2f1;
+}
+
+.balance-card .balance p {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.balance-card .balance span {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Action buttons with green gradient theme */
+.actions-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.action-item {
+    background: linear-gradient(120deg, #10b981, #34d399); /* Green gradient for buttons */
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.action-item:hover {
+    transform: translateY(-5px);
+}
+
+.action-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.action-item p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Account and Cards sections */
+.account-cards-section .account-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 15px;
+}
+
+.account-card h4 {
+    font-size: 16px;
+    color: #1f9450; /* Green text color */
+    font-weight: bold;
+}
+
+.account-card p {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Footer styling with light theme */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 20px;
+    background-color: white;
+    border-top: 1px solid #ddd;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer a {
+    font-size: 14px;
+    color: #888;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer a:hover {
+    color: #10b981; /* Green hover effect */
+}
+
+/* Footer Menu */
+.footer-menu a {
+    color: #4CAF50; /* Green color for links */
+    text-decoration: none; /* Remove underline */
+    padding: 10px; /* Padding */
+}
