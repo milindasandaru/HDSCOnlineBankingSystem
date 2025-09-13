@@ -48,3 +48,5 @@ This is a Java EE web application for online banking, supporting user login, bil
 
 ## License
 This project is for educational purposes.
+
+**Note:** If you encounter any bugs or issues, please report them via GitHub Issues or contact the maintainer.
